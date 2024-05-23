@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Olx Landing Page</title>
+    <title>OLX - Buy and Sell For Free Anywhere</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./images/icon-img.webp">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -18,9 +19,8 @@
         <div class="navbar">
             <img src="./images/olx_img.png" alt="olx_logo">
             <div class="select_country" id="country">
-                <div class="select">
-                    <p id="text">Select Your Country </p>
-                    <i class="fa-solid fa-down" id="moving"></i>
+                <div>
+                    <input type="text" class="select" placeholder="Type Your Country">
                 </div>
             </div>
 
@@ -43,11 +43,9 @@
     </div>
 
     <div class="Second_Container">
-        <select>
-            <option>ALL CATEGORIES</option>
-        </select>
         <div class="list">
             <ul>
+                <li>All Categories</li>
                 <li>Mobile Phones</li>
                 <li>Cars</li>
                 <li>Motocycles</li>
@@ -59,7 +57,7 @@
         </div>
     </div>
 
-    <!-- ******SLIDER******* -->\
+    <!-- ******SLIDER******* -->
     <div class="slider">
         <img src="./images/slider_img.png" alt="slider_img">
     </div>
@@ -106,14 +104,291 @@
         </div>
     </div>
 
+    <div class="categories">
+        <div class="pics">
+            <div class="pics"><img src="./images/services.dc6aef196c0403dc61b0ee813f66fa5b.png" alt="services"></div>
+            <div class="pics"><img src="./images/jobs.79e6136dda02111cf8e7afe26b9e0f93.png" alt="jobs"></div>
+            <div class="pics"><img src="./images/animals.62d396e85f7523dbc8ff23889fdd5c31.png" alt="animals"></div>
+            <div class="pics"><img src="./images/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png"
+                    alt="furniture-home-decor"></div>
+            <div class="pics"><img src="./images/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png"
+                    alt="fashion-beauty"></div>
+            <div class="pics"><img src="./images/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png"
+                    alt="books-sports-hobbies"></div>
+            <div class="pics"><img src="./images/kids.cd8d8864804f1c35dd6a7df68268a48d.png" alt="kids"></div>
+        </div>
+        <div class="text">
+            <div>
+                <p>Services</p>
+            </div>
+            <div>
+                <p id="j-text">Jobs</p>
+            </div>
+            <div>
+                <p id="a-text">Animals</p>
+            </div>
+            <div>
+                <p>Furniture & Home Decor</p>
+            </div>
+            <div>
+                <p>Fashion & Beauty</p>
+            </div>
+            <div>
+                <p>Books, Sports & Hobbies</p>
+            </div>
+            <div>
+                <p id="k-text">Kids</p>
+            </div>
+        </div>
+    </div>
+
     <!-- ****** PRODUCT CARDS ******** -->
 
     <div class="product">
-        <div class="first_row">
-            <div class="box">
 
+        <h2 class="prod-heading">Mobile Phones</h2>
+
+        <div class="prod">
+            <div class="box">
+                <img src="./images/vivo" alt="vivo">
+                <p class="rs">RS 18,999</p>
+                <p>Vivo Y-17 8/256</p>
+                <div class="address_data">
+                    <h4>Gulberg, Lahore</h4>
+                    <p>2 days ago</p>
+                </div>
             </div>
+
+            <div class="box">
+                <img src="./images/google_pixel" alt="google_pixel">
+                <p class="rs">RS 32,999</p>
+                <p>Google Pixel 4A</p>
+                <div class="address_data">
+                    <h4>Saddar Town, Karachi</h4>
+                    <p>4 days ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pixel_8.webp" alt="google_pixel8">
+                <p class="rs">RS 245,999</p>
+                <p>Google Pixel 8 pro</p>
+                <div class="address_data">
+                    <h4>Soan Garden, Islamabad</h4>
+                    <p>2 days ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/motorrola.webp" alt="motorrola">
+                <p class="rs">RS 55,000</p>
+                <p>Motorola Razor 5G</p>
+                <div class="address_data">
+                    <h4>Gulberg, Lahore</h4>
+                    <p>2 days ago</p>
+                </div>
+            </div>
+
         </div>
+    </div>
+
+    <div class="product">
+
+        <h2 class="prod-heading">Bikes & Motorcycles</h2>
+
+        <div class="prod">
+            <div class="box">
+                <img src="./images/bike1.webp" alt="bike1">
+                <p class="rs">RS 170,000</p>
+                <p>Honda Prider 2023</p>
+                <div class="address_data">
+                    <h4>Lahore</h4>
+                    <p>2 weeks ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/bike2.webp" alt="bike2">
+                <p class="rs">RS 1,250,000</p>
+                <p>BMW s1000 new model</p>
+                <div class="address_data">
+                    <h4>Karachi</h4>
+                    <p>1 day ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/bike3.webp" alt="bike3">
+                <p class="rs">RS 290,000</p>
+                <p>Google Pixel 8 pro</p>
+                <div class="address_data">
+                    <h4>Islamabad</h4>
+                    <p>5 days ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/bike4.webp" alt="bike4">
+                <p class="rs">RS 145,000</p>
+                <p>Honda CG125</p>
+                <div class="address_data">
+                    <h4>Peshawar</h4>
+                    <p>6 days ago</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="product">
+
+        <h2 class="prod-heading">Houses</h2>
+
+        <div class="prod">
+            <div class="box">
+                <img src="./images/house1.webp" alt="house1">
+                <p class="rs">RS 18,500,000</p>
+                <p>Brand New House For Sale</p>
+                <div class="address_data">
+                    <h4>Gulberg, Lahore</h4>
+                    <p>2 days ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/house2.webp" alt="house2">
+                <p class="rs">RS 70,000,000</p>
+                <p>Farm House For Sale</p>
+                <div class="address_data">
+                    <h4>Raheem Yar Khan</h4>
+                    <p>2 weeks ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/house3.webp" alt="house3">
+                <p class="rs">RS 24,000,000</p>
+                <p>Luxury House Available For Sale</p>
+                <div class="address_data">
+                    <h4>Karachi</h4>
+                    <p>2 weeks ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/house4.webp" alt="house4">
+                <p class="rs">RS 15,000,000</p>
+                <p>House For Sale</p>
+                <div class="address_data">
+                    <h4>Islamabad</h4>
+                    <p>3 weeks ago</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="product">
+
+        <h2 class="prod-heading">Tablets</h2>
+
+        <div class="prod">
+            <div class="box">
+                <img src="./images/tab1.webp" alt="tab1">
+                <p class="rs">RS 18,999</p>
+                <p>Samsung Galaxy Tablet A 2/32</p>
+                <div class="address_data">
+                    <h4>Korangi, Karachi</h4>
+                    <p>1 day ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/tab2.webp" alt="tab2">
+                <p class="rs">RS 50,000</p>
+                <p>Ipad 7<sup>th</sup> and 8<sup>th</sup> generation</p>
+                <div class="address_data">
+                    <h4>Saddar Town, Karachi</h4>
+                    <p>4 days ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/tab3.webp" alt="tab3">
+                <p class="rs">RS 70,000</p>
+                <p>Ipad 12<sup>th</sup> generation</p>
+                <div class="address_data">
+                    <h4>Soan Garden, Islamabad</h4>
+                    <p>2 days ago</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/tab4.jpg" alt="tab4">
+                <p class="rs">RS 55,000</p>
+                <p>Ipad 9<sup>th</sup> generation</p>
+                <div class="address_data">
+                    <h4>Gulberg 3, Lahore</h4>
+                    <p>4 days ago</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ****** BUTTON ****** -->
+
+    <div class="loadbtn">
+        <button>Load more</button>
+    </div>
+
+    <!-- ****** SLIDER2 ******* -->
+
+    <div class="slider2">
+        <img src="./images/slider2_img.png" alt="olx_img">
+    </div>
+
+    <!-- ****** FOOTER ****** -->
+
+    <div class="main_footer">
+        <div class="footer">
+            <div class="footer_box">
+                <h3>POPULAR CATEGORIES</h3>
+                <p>Cars</p>
+                <p>Flats for rent</p>
+                <p>Mobile Phones</p>
+                <p>Tablets</p>
+            </div>
+
+            <div class="footer_box">
+                <h3>TRENDING SEARCHES</h3>
+                <p>Bikes</p>
+                <p>Watches</p>
+                <p>Books</p>
+                <p>Dogs</p>
+            </div>
+
+            <div class="footer_box">
+                <h3>ABOUT US</h3>
+                <p>About Dubizzle Group</p>
+                <p>OLX Blog</p>
+                <p>Contact US</p>
+                <p>OLX for Businesses</p>
+            </div>
+
+            <div class="footer_box">
+                <h3>OLX</h3>
+                <p>Help</p>
+                <p>Sitemap</p>
+                <p>Terms of use</p>
+                <p>Privacy Policy</p>
+            </div>
+            <img class="icons" src="./images/follow.png" alt="">
+        </div>
+    </div>
+
+    <div class="final_footer">
+        <p><strong>Free Classifieds in Pakistan. </strong>© 2006-2024 OLX</p>
     </div>
 
 </body>
